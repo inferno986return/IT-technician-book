@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="http://www.w3.org/1999/xhtml; charset=utf-8" http-equiv="Content-Type"/>
+<link href="styles/zstylesheet.css" rel="stylesheet" type="text/css"/>
+<title>Introduction to TCP/IP</title>
+</head>
+
+<body>
+	<h1 class="heading">Introduction to TCP/IP</h1>
+
+    <p class="noindent top">TCP/IP (Transport Control Protocol / Internet Protocol) is the standard network stack used by the internet so that internet-connected hardware and software can communicate with each other. All modern hardware and software since the early 2000s supports TCP/IP by default including computers, smartphones, tablets, smart TVs and game consoles.</p>
+
+    <p class="noindent top">Having a working knowledge of TCP/IP and the common protocols assists with configuring network equipment and troubleshooting problems that can occur with it.</p>
+
+    <h1 class="subheading">What is a protocol?</h1>
+
+    <p class="noindent top">My old A-level computing textbook defined a protocol with the following: <i>"A protocol is a set of rules governing the communication of two or more devices."</i></p>
+
+    <p class="noindent top">Many protocols are open, meaning they are publicly documented and can be used without requiring permission from the developer(s) of that protocol. Most open protocols have been defined with a Request For Comments (RFC) document to assist developers when they integrate that protocol with their software.</p>
+
+    <p class="noindent top">Most protocols utilise either TCP (Transport Control Protocol) or UDP (Uniform Datagram Protocol) as transport protocol to send data as packets from source to destination. Developers choose ei</p>
+
+    <ol>
+        <li><b>TCP</b> - sends packets and verify they have arrived intact, if they haven't data is re-sent</li>
+        <li><b>UDP</b> - sends packets without verifying they have arrived intact and is used by protocols that stream data</li>
+    </ol>
+
+    <h1 class="subheading">Common ports and protocols</h1>
+
+    <p class="noindent top">It is expected that an IT professional is aware of the following protocols and their respective default ports. If you are interested in acquiring the CompTIA A+ and Network+ certifications you will require at least a basic knowledge of these protocols:</p>
+
+    <table>
+        <tr><th>Protocol</th><th>Port</th><th>TCP or UDP</th></tr>
+        <tr><td>POP3</td><td>110 (default), 995 (with TLS)</td><td>TCP</td></tr>
+        <tr><td>IMAP</td><td>143 (default), 993 (with TLS)</td><td>TCP</td></tr>
+        <tr><td>SMTP</td><td>25 (default), 587 (with TLS)</td><td>TCP</td></tr>
+        <tr><td>HTTP</td><td>80 (default)</td><td>TCP</td></tr>
+        <tr><td>HTTPS</td><td>81 (default)</td><td>TCP</td></tr>
+        <tr><td>FTP</td><td>21 (default)</td></tr>
+        <tr><td>SSH</td><td>22 (default)</td></tr>
+        <tr><td>Telnet</td><td>23 (default)</td></tr>
+        <tr><td>TFTP</td><td></td></tr>
+        <tr><td>DNS</td><td>53 (default)</td></tr>
+        <tr><td>RDP</td><td>3389 (default)</td></tr>
+        <tr><td>NetBIOS/NetBT</td><td>137-139 (default)</td></tr>
+        <tr><td>SMB/CIFS</td><td>445 (default)</td></tr>
+        <tr><td>SLP</td><td>427 (default)</td></tr>
+        <tr><td>AFP</td><td>548 (default)</td></tr>
+        <tr><td>DHCP</td><td>67 or 68 (default)</td></tr>
+        <tr><td>LDAP</td><td>389 (default)</td></tr>
+        <tr><td>SNMP</td><td>161 or 162 (default)</td></tr>
+        <tr><td>NTP</td></tr>
+        <tr><td>ICMP</td></tr>
+    </table>
+    <p class="figure-caption">Common ports and protocols<a id="cite-1" href="#ref1"><sup>1</sup></a></p>
+
+    <h2 class="subheading">Post Office Protocol 3 (POP3)</h2>
+
+    <p class="noindent top">Post Office Protocol 3 (POP3) is an open and standardised protocol used for receiving e-mails. POP3 downloads the contents of the mailbox directly from the mail server without syncing any alterations made to the mailbox and for that reason it is not commonly used anymore. However, most e-mail clients still support it including Microsoft Outlook, Apple Mail and Mozilla Thunderbird.</p>
+
+    <h2 class="subheading">Internet Message Access Protocol (IMAP)</h2>
+
+    <p class="noindent top">Internet Message Access Protocol (IMAP) is another open and standardised protocol used for receiving e-mails. Unlike POP3, IMAP syncronises changes made with the mail server when it retrieves new e-mails. Alongside POP3, IMAP is supported by most e-mail clients including Microsoft Outlook, Apple Mail and Mozilla Thunderbird.</p>
+
+    <h2 class="subheading">Simple Mail Transfer Protocol (SMTP)</h2>
+
+    <h2 class="subheading">HyperText Transfer Protocol (HTTP)</h2>
+
+    <h2 class="subheading">HyperText Transfer Protocol Secure (HTTPS)</h2>
+
+    <h2 class="subheading">File Transfer Protocol (FTP)</h2>
+
+    <h2 class="subheading">Trivial File Transfer Protocol (TFTP)</h2>
+
+    <p class="noindent top">Trivial File Transfer Protocol (TFTP) is a simple file transfer protocol that doesn't use authentication or security when transferring data. It is used by the Pre-boot eXecution Enviroment (PXE) when an operating system image is installed from a server on the Local Area Network (LAN).</p>
+
+    <p class="subheading">Telnet</p>
+
+    <h2 class="subheading">Secure SHell (SSH)</h2>
+
+    <p class="noindent">Secure SHell (SSH) creates a secure tunnel using TLS between 2 computers for the purposes of running remote commands (using a shell such as GNU Bash) or sending data such as files (with the SSH File Transfer Protocol (SFTP)). It can also be used to secure Telnet, but is mainly used as an alternative to it.</p>
+
+    <h2 class="subheading">Simple Network Management Protocol (SNMP)</h2>
+
+    <h2 class="subheading">Internet Control Message Protocol (ICMP)</h2>
+
+    <p class="noindent top">Internet Control Message Protocol (ICMP) is used to test network connectivity between 2 devices. A common use of ICMP is the <span class="mono">ping</span> command which sends several packets while keeping track of the time it takes for them to be acknowledged.</p>
+
+    <hr/>
+        <p id="ref-1" class="noindent ref"><a href="#cit-1">1</a>. List adapted from <a href="https://www.comptia.jp/pdf/comptia-a-220-1001-exam-objectives.pdf">https://www.comptia.jp/pdf/comptia-a-220-1001-exam-objectives.pdf</a>. I also added other protocols I think are important to know about.</p>
+</body>
+</html>
