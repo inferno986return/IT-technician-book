@@ -20,6 +20,10 @@ Soft skills such as logging tickets, phone etiquette, booking calendar, appointm
 
 Split into theory and practical sections
 
+Network commands such as: ipconfig, ping, pathping, tracert, nslookup
+
+Setting up an Exchange server, setting alias, integrating with Active Directory, etc.
+
 ISPs such as TalkTalk have been known to block TeamViewer, AnyDesk, Chrome Remote Desktop and similar remote apps.
 
 Cite quotes and sources. Watch IT Help desk channel
@@ -82,7 +86,7 @@ Section on…
 
 Using TeamViewer and AnyDesk, particularly setting it up on Mac. Demonstrate connecting, setting up unattended access, redirected printing,
 
-Soft skills, setting up a software update or installation. Taking a snapshot on the hypervisor...
+Soft skills, setting up a software update or installation. Taking a snapshot on the hypervisor (vmware untick memory cache)...
 
 Reset your local account password using reset disk and WIndows 10 install USB. https://www.pcunlocker.com/reset-windows-10-password-with-install-disk.html
 
