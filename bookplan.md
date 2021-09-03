@@ -18,6 +18,8 @@ https://xkcd.com/627/
 
 Soft skills such as logging tickets, phone etiquette, booking calendar, appointments, escalating issues within 15 minutes, learn the preferred communication style of your colleagues (we use Teams).
 
+Split into theory and practical sections
+
 ISPs such as TalkTalk have been known to block TeamViewer, AnyDesk, Chrome Remote Desktop and similar remote apps.
 
 Cite quotes and sources. Watch IT Help desk channel
@@ -62,7 +64,7 @@ Office 365 troubleshooting including message trace. Also, escalating to Microsof
 
 RDP files and connecting to another computer/server such as RDS gateway and redirection. Show configuration settings for Windows, macOS and Linux. Discuss Royal and Microsoft Remote Desktop (orange icon).
 
-DNS, DNS filtering, host file (on Windows and other operating systems), DNS issues over VPN with Drayter Vigor routers
+DNS, DNS records (A, MX...), setup and configuring a DNS server (on Windows Server and Linux), DNS filtering, host file (on Windows and other operating systems), DNS issues over VPN with Drayter Vigor routers
 
 VPN with built-in and Smart VPN Client, FortiClient VPN + different types of protocols (PPTP, L2TP, SSTP) on Draytek and RAS. Different VPN errors (such as PPP control errors, remote dial-in), DHCP
 
