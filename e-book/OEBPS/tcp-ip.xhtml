@@ -8,9 +8,37 @@
 <body>
 	<h1 class="heading">Introduction to TCP/IP</h1>
 
+    <!--diagram of TCP/IP stack-->
+
     <p class="noindent top">TCP/IP (Transport Control Protocol / Internet Protocol) is the standard network stack used by the internet so that internet-connected hardware and software can communicate with each other. All modern hardware and software since the early 2000s supports TCP/IP by default including computers, smartphones, tablets, smart TVs and game consoles.</p>
 
     <p class="noindent top">Having a working knowledge of TCP/IP and the common protocols assists with configuring network equipment and troubleshooting problems that can occur with it.</p>
+
+    <h1 class="subheading">What is an IP address?</h1>
+
+    <p class="noindent top">An IP (Internet Protocol) address is used to identify a network device on a network. Routers and network switches rely on IP addresses to send and receive data over the internal network or the internet as a whole. There two types of IP address on a given network:</p>
+    
+    <ul>
+        <li><b>Private IP address</b> - Each network device has its own private IP address for the local area network (LAN) it is connected to for identification between the router and each other.</li>
+        <li><b>Public IP address</b> - DependEach network device can be identified publicly by i</li>
+    </ul>
+
+    <p class="noindent top">There are 2 IP address versions which are currently used:</p>
+
+    <p class="noindent top">IPv4 addresses are the most commonly used. They are comprised of</p>
+
+    <h2 class="subheading">Reserved IP addresses</h2>
+
+    <p class="noindent top">Some IP addresses have a special uses within a network and are unsuitable for allocating to networked devices:</p>
+
+    <ul>
+        <li><b>Automatic Private IP Addressing (APIPA)</b> - APIPA is type of class B IP address that have a prefix of <span class="mono">169.254.x.x</span>. Usually APIPA indicates a computer that cannot reach the Dynamic Host(DHCP) server to gain a new IP address, so the operating system assigns its own IP address instead. APIPA is supported on Microsoft Windows. Other operating systems also support APIPA (such as?).</li>
+        <li><b>Localhost</b> - The localhost is the network device itself. Localhost has a shorthand address with a prefix of <span class="mono">127.x.x.x</span>. Usually <span class="mono">127.0.0.1</span> is used for this purpose as it's supported by most operating systems.</li>
+    </ul>
+
+    <h1 class="subheading">What is a packet?</h1>
+
+    <p class="noindent top">A packet is a </p>
 
     <h1 class="subheading">What is a protocol?</h1>
 
@@ -18,71 +46,81 @@
 
     <p class="noindent top">Many protocols are open, meaning they are publicly documented and can be used without requiring permission from the developer(s) of that protocol. Most open protocols have been defined with a Request For Comments (RFC) document to assist developers when they integrate that protocol with their software.</p>
 
-    <p class="noindent top">Most protocols utilise either TCP (Transport Control Protocol) or UDP (Uniform Datagram Protocol) as transport protocol to send data as packets from source to destination. Developers choose ei</p>
+    <p class="noindent top">Most protocols utilise either TCP (Transport Control Protocol) or UDP (User Datagram Protocol) as transport protocol to send data as packets from source to destination. An analogy to remember these is to think of how a postal service will either send a package with tracking and a required signature by the recipient, or just send the package untracked instead.</p>
 
-    <ol>
-        <li><b>TCP</b> - sends packets and verify they have arrived intact, if they haven't data is re-sent</li>
-        <li><b>UDP</b> - sends packets without verifying they have arrived intact and is used by protocols that stream data</li>
-    </ol>
+    <ul>
+        <li><b>TCP</b> - sends packets and verify they have arrived intact, if they haven't data is re-sent. Slower than UDP, but neccessary for protocols that require data integrity such as e-mail and file transfers.</li>
+        <li><b>UDP</b> - sends packets without verifying they have arrived intact, making it faster than TCP. Often used by protocols that stream data such as audio or video.</li>
+    </ul>
 
     <h1 class="subheading">Common ports and protocols</h1>
 
-    <p class="noindent top">It is expected that an IT professional is aware of the following protocols and their respective default ports. If you are interested in acquiring the CompTIA A+ and Network+ certifications you will require at least a basic knowledge of these protocols:</p>
+    <p class="noindent top">It is expected that an IT professional is aware of the following protocols and their respective default ports. Particularly if you are interested in acquiring the CompTIA A+ and Network+ certifications.</p>
 
     <table>
         <tr><th>Protocol</th><th>Port</th><th>TCP or UDP</th></tr>
-        <tr><td>POP3</td><td>110 (default), 995 (with TLS)</td><td>TCP</td></tr>
-        <tr><td>IMAP</td><td>143 (default), 993 (with TLS)</td><td>TCP</td></tr>
-        <tr><td>SMTP</td><td>25 (default), 587 (with TLS)</td><td>TCP</td></tr>
-        <tr><td>HTTP</td><td>80 (default)</td><td>TCP</td></tr>
-        <tr><td>HTTPS</td><td>81 (default)</td><td>TCP</td></tr>
-        <tr><td>FTP</td><td>21 (default)</td></tr>
-        <tr><td>SSH</td><td>22 (default)</td></tr>
-        <tr><td>Telnet</td><td>23 (default)</td></tr>
-        <tr><td>TFTP</td><td></td></tr>
-        <tr><td>DNS</td><td>53 (default)</td></tr>
-        <tr><td>RDP</td><td>3389 (default)</td></tr>
-        <tr><td>NetBIOS/NetBT</td><td>137-139 (default)</td></tr>
-        <tr><td>SMB/CIFS</td><td>445 (default)</td></tr>
-        <tr><td>SLP</td><td>427 (default)</td></tr>
-        <tr><td>AFP</td><td>548 (default)</td></tr>
-        <tr><td>DHCP</td><td>67 or 68 (default)</td></tr>
-        <tr><td>LDAP</td><td>389 (default)</td></tr>
-        <tr><td>SNMP</td><td>161 or 162 (default)</td></tr>
-        <tr><td>NTP</td></tr>
-        <tr><td>ICMP</td></tr>
+        <tr><td><a href="#POP3">POP3</a></td><td>110 (default), 995 (with TLS)</td><td>TCP</td></tr>
+        <tr><td><a href="#IMAP">IMAP</a></td><td>143 (default), 993 (with TLS)</td><td>TCP</td></tr>
+        <tr><td><a href="#SMTP">SMTP</a></td><td>25 (default), 587 (with TLS)</td><td>TCP</td></tr>
+        <tr><td><a href="#HTTP">HTTP</a></td><td>80 (default)</td><td>TCP</td></tr>
+        <tr><td><a href="#HTTPS">HTTPS</a></td><td>81 (default)</td><td>TCP</td></tr>
+        <tr><td><a href="#FTP">FTP</a></td><td>21 (default)</td><td>TCP</td></tr>
+        <tr><td><a href="#SSH">SSH</a></td><td>22 (default)</td><td>TCP</td></tr>
+        <tr><td><a href="#Telnet">Telnet</a></td><td>23 (default)</td><td>TCP</td></tr>
+        <tr><td><a href="#TFTP">TFTP</a></td><td>UDP</td></tr>
+        <tr><td><a href="#DNS">DNS</a></td><td>53 (default)</td></tr>
+        <tr><td><a href="#RDP">RDP</a></td><td>3389 (default)</td></tr>
+        <tr><td><a href="#NetBIOS-NetBT">NetBIOS/NetBT</a></td><td>137-139 (default)</td></tr>
+        <tr><td><a href="#SMB/CIFS">SMB/CIFS</a></td><td>445 (default)</td></tr>
+        <tr><td><a href="#SLP">SLP</a></td><td>427 (default)</td></tr>
+        <tr><td><a href="#AFP">AFP</a></td><td>548 (default)</td></tr>
+        <tr><td><a href="#DHCP">DHCP</a></td><td>67 or 68 (default)</td></tr>
+        <tr><td><a href="#LDAP">LDAP</a></td><td>389 (default)</td></tr>
+        <tr><td><a href="#SNMP">SNMP</a></td><td>161 or 162 (default)</td></tr>
+        <tr><td><a href="#NTP">NTP</a></td></tr>
+        <tr><td><a href="#ICMP">ICMP</a></td></tr>
     </table>
-    <p class="figure-caption">Common ports and protocols<a id="cite-1" href="#ref1"><sup>1</sup></a></p>
+    <p class="figure-caption">Table 1: Common ports and protocols<a id="cite-1" href="#ref1"><sup>1</sup></a></p>
 
-    <h2 class="subheading">Post Office Protocol 3 (POP3)</h2>
+    <h2 id="POP3" class="subheading">Post Office Protocol 3 (POP3)</h2>
 
-    <p class="noindent top">Post Office Protocol 3 (POP3) is an open and standardised protocol used for receiving e-mails. POP3 downloads the contents of the mailbox directly from the mail server without syncing any alterations made to the mailbox and for that reason it is not commonly used anymore. However, most e-mail clients still support it including Microsoft Outlook, Apple Mail and Mozilla Thunderbird.</p>
+    <p class="noindent top">Post Office Protocol 3 (POP3) is an open and standardised protocol used for receiving e-mails, that is defined by RFC. POP3 downloads the contents of the mailbox directly from the mail server without syncing any alterations made to the mailbox and for that reason it is not commonly used anymore. However, most e-mail clients still support it including Microsoft Outlook, Apple Mail and Mozilla Thunderbird.</p>
 
-    <h2 class="subheading">Internet Message Access Protocol (IMAP)</h2>
+    <h2 id="IMAP" class="subheading">Internet Message Access Protocol (IMAP)</h2>
 
     <p class="noindent top">Internet Message Access Protocol (IMAP) is another open and standardised protocol used for receiving e-mails. Unlike POP3, IMAP syncronises changes made with the mail server when it retrieves new e-mails. Alongside POP3, IMAP is supported by most e-mail clients including Microsoft Outlook, Apple Mail and Mozilla Thunderbird.</p>
 
-    <h2 class="subheading">Simple Mail Transfer Protocol (SMTP)</h2>
+    <h2 id="SMTP" class="subheading">Simple Mail Transfer Protocol (SMTP)</h2>
 
-    <h2 class="subheading">HyperText Transfer Protocol (HTTP)</h2>
+    <p class="noindent top">Simple Mail Transfer Protocol (SMTP) is the only notable open and standardised protocol used for sending e-mails and is usually accompanied with POP3 and IMAP...</p>
 
-    <h2 class="subheading">HyperText Transfer Protocol Secure (HTTPS)</h2>
+    <h2 id="HTTP" class="subheading">HyperText Transfer Protocol (HTTP)</h2>
 
-    <h2 class="subheading">File Transfer Protocol (FTP)</h2>
+    <p class="noindent top">HyperText Transfer Protocol (HTTP) is an open and standardised protocol used by web browsers for retrieving webpages written in HyperText Markup Language (HTML) from a web server. If protocol can't retrieve the file it will display an error, such as the famous - Error 404: Page Not Found.</p>
 
-    <h2 class="subheading">Trivial File Transfer Protocol (TFTP)</h2>
+    <h2 id="HTTPS" class="subheading">HyperText Transfer Protocol Secure (HTTPS)</h2>
 
-    <p class="noindent top">Trivial File Transfer Protocol (TFTP) is a simple file transfer protocol that doesn't use authentication or security when transferring data. It is used by the Pre-boot eXecution Enviroment (PXE) when an operating system image is installed from a server on the Local Area Network (LAN).</p>
+    <p class="noindent top">HyperText Transfer Protocol Secure (HTTPS) behaves indentically to HTTP, though it uses a certificate to provide asymmetrical-key encryption between the user's web browser and the web server the page is stored on. This encryption is neccessary to prevent man-in-the-middle  As of 2021, most websites use HTTPS and this can be verified by viewing the certificate by clicking the padlock icon at left-side of the web browser's address bar.</p>
 
-    <p class="subheading">Telnet</p>
+    <h2 id="FTP" class="subheading">File Transfer Protocol (FTP)</h2>
 
-    <h2 class="subheading">Secure SHell (SSH)</h2>
+    <h2 class="subheading">Telnet</h2>
 
-    <p class="noindent">Secure SHell (SSH) creates a secure tunnel using TLS between 2 computers for the purposes of running remote commands (using a shell such as GNU Bash) or sending data such as files (with the SSH File Transfer Protocol (SFTP)). It can also be used to secure Telnet, but is mainly used as an alternative to it.</p>
+    <h2 id="TFTP" class="subheading">Trivial File Transfer Protocol (TFTP)</h2>
 
-    <h2 class="subheading">Simple Network Management Protocol (SNMP)</h2>
+    <p class="noindent top">Trivial File Transfer Protocol (TFTP) is a simple file transfer protocol that doesn't use authentication or security when transferring data, nor verify it has been received correctly. It is used by the Pre-boot eXecution Enviroment (PXE) when an operating system image is installed from a server on the Local Area Network (LAN).</p>
 
-    <h2 class="subheading">Internet Control Message Protocol (ICMP)</h2>
+    <h2 id="DNS" class="subheading">Domain Naming Service (DNS)</h2>
+
+    <p class="noindent top">Domain Naming Service (DNS) is an open and standardised protocol that converts a Fully Qualified Domain Name (FQDN) or hostname to an IP address.</p>
+
+    <h2 id="SSH" class="subheading">Secure SHell (SSH)</h2>
+
+    <p class="noindent top">Secure SHell (SSH) creates a secure tunnel using TLS between 2 computers for the purposes of running remote commands (using a shell such as GNU Bash) or sending data such as files (with the SSH File Transfer Protocol (SFTP)). It can also be used to secure Telnet, but is mainly used as an alternative to it.</p>
+
+    <h2 id="SNMP" class="subheading">Simple Network Management Protocol (SNMP)</h2>
+
+    <h2 id="ICMP" class="subheading">Internet Control Message Protocol (ICMP)</h2>
 
     <p class="noindent top">Internet Control Message Protocol (ICMP) is used to test network connectivity between 2 devices. A common use of ICMP is the <span class="mono">ping</span> command which sends several packets while keeping track of the time it takes for them to be acknowledged.</p>
 

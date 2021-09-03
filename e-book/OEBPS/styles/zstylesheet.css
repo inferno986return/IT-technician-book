@@ -11,40 +11,11 @@ Use ems instead of percentages.
 
 /*Fonts*/
 
-@font-face
+/*@font-face
 {
   font-family: "Roboto Slab";	
   src: url("../fonts/RobotoSlab-Regular.ttf");
-}
-
-@font-face
-{
-  font-family: "Roboto Slab Bold";	
-  src: url("../fonts/RobotoSlab-Bold.ttf");
-}
-
-@font-face {
-	font-family: "Roboto";
-	src: url("../fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-	font-family: "Roboto Bold";
-	font-weight: bold;
-	src: url("../fonts/Roboto-Bold.ttf");
-}
-
-@font-face {
-	font-family: "Roboto Italic";
-	font-weight: italic;
-	src: url("../fonts/Roboto-Italic.ttf");
-}
-
-@font-face {
-	font-family: "Roboto Bold-Italic";
-	font-weight: italic;
-	src: url("../fonts/Roboto-BoldItalic.ttf");
-}
+}*/
 
 /*Cover*/
 
@@ -162,7 +133,7 @@ h2.indicia-heading
 h1.heading
 {
 	font-size: 1.7em;
-	font-family: "Roboto Slab Bold", serif;
+	font-family: sans-serif;
 	font-weight: bold;
 	text-align: center;
 	color: #000;
@@ -248,7 +219,7 @@ h1.indent, h2.indent
 h1.subheading
 {
 	font-size: 1.1em;
-	font-family: "Roboto Slab Bold", serif;
+	font-family: sans-serif;
 	font-weight: bold;
 	margin-top: 1em;
   	margin-bottom: 0em;
@@ -636,7 +607,7 @@ table
 	border-collapse: collapse;
 	border: solid #000 2px;
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 0em;
 }
 
 table.gta-table
@@ -685,77 +656,11 @@ th
 	hyphens: none;
 	font-size: 0.9em;
 	border: solid #000 2px;
-	font-variant-numeric: tabular-nums;
-	font-family: "Roboto Bold", sans-serif;
-	font-weight: bold;
-}
-
-th.gta-heading /*Ground-to-air table*/
-{
-	text-indent: 0em !important;
-	padding: 0.2em;
-	vertical-align: top;
-	text-align: center;
-	page-break-inside: avoid;
-	hyphens: none;
-	font-size: 0.9em;
-	color: #FFF;
 	background-color: #000;
+	color: #FFF;
 	font-variant-numeric: tabular-nums;
 	font-family: sans-serif;
-	font-weight: bold;	
-}
-
-td.gta-number
-{
-	text-indent: 0em !important;
-	padding: 1em;
-	margin-left: 0em;
-	margin-right: 0em;
-	vertical-align: top;
-	text-align: center;
-	page-break-inside: avoid;
-	hyphens: none;
-	font-size: 0.9em;
-	border: none;
-	font-variant-numeric: tabular-nums;
-	font-family: sans-serif;
-	font-weight: normal;	
-}
-
-td.gta-message
-{
-	text-indent: 0em !important;
-	padding: 1em;
-	margin-left: 0em;
-	margin-right: 0em;
-	vertical-align: top;
-	text-align: left;
-	page-break-inside: avoid;
-	hyphens: none;
-	font-size: 0.9em;
-	border: none;
-	font-variant-numeric: tabular-nums;
-	font-family: sans-serif;
-	font-weight: normal;	
-}
-
-
-td.gta-code-symbol
-{
-	text-indent: 0em !important;
-	padding: 0.5em;
-	margin-left: 0em;
-	margin-right: 0em;
-	vertical-align: top;
-	text-align: center;
-	page-break-inside: avoid;
-	hyphens: none;
-	font-size: 1.2em;
-	border: none;
-	font-variant-numeric: tabular-nums;
-	font-family: sans-serif;
-	font-weight: normal;	
+	font-weight: bold;
 }
 
 table.indicia-table
