@@ -24,6 +24,10 @@ Network commands such as: ipconfig, ping, pathping, tracert, nslookup
 
 Setting up an Exchange server, setting alias, integrating with Active Directory, etc.
 
+Out of space errors including on Outlook
+
+Using WeTransfer to send files
+
 ISPs such as TalkTalk have been known to block TeamViewer, AnyDesk, Chrome Remote Desktop and similar remote apps.
 
 Cite quotes and sources. Watch IT Help desk channel
