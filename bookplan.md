@@ -20,7 +20,11 @@ Soft skills such as logging tickets, phone etiquette, booking calendar, appointm
 
 Split into theory and practical sections
 
-Network commands such as: ipconfig, ping, pathping, tracert, nslookup
+Setting up printer server, using Printer Management and Group Policy.
+
+Network commands such as: ipconfig, ping, pathping, tracert, nslookup, arp
+
+Installing and updating Sage 50 Accounts, importance of backing up company data (to prevent a snowball effect of error growth)
 
 Setting up an Exchange server, setting alias, integrating with Active Directory, etc.
 
@@ -32,11 +36,25 @@ ISPs such as TalkTalk have been known to block TeamViewer, AnyDesk, Chrome Remot
 
 Cite quotes and sources. Watch IT Help desk channel
 
-Types of servers: web, mail, domain controller, Terminal services, file, hypervisor, jumpbox…
+Check the drive space if Exchange mail flow is interrupted for all users.
+
+1. Add space to the VM (in Hyper-V or VMware)
+2. diskpart -> Scan - to show the unallocated space
+3. Use Disk Management to extend the volume
+4. Check the mail queue.
+5. Send a test e-mail to check it's working
+
+Create a contact in Exchnage to forward to an external address. https://exchangepedia.com/2008/02/how-to-forward-mail-to-an-external-email-address.html https://archive.ph/OD9jC
+
+Types of servers: web, mail, domain controller, print, Terminal services, file, hypervisor, jumpbox…
+
+Setting up a Terminal Services (ts) server, installing software (commands to run) such as Chrome for Enterprise
 
 MMC Shared Folders snap-in and GPO
 
-Group Policy 101 - mapping shared drives, installing software, disabling features, using custom templates for programs such as Chrome
+Group Policy 101 - mapping shared drives, mapping printers, installing software, disabling features, using custom templates for programs such as Chrome
+http://woshub.com/deploy-printers-to-users-gpo/ https://archive.ph/Grk1H
+https://server-essentials.com/support/deploy-and-install-printers-using-group-policies
 
 BSOD troubleshooting using BlueScreenView and searching the stop code. Windows kernel panic
 
@@ -64,7 +82,7 @@ Peripherals such as monitors (IPS vs TN, cables, LCD/LED/CRT...), keyboards (lay
 
 Serial Vs parallel such as SATA Vs IDE.
 
-Outlook overriding PST/OST file size in Registry Editor, enabling/disabling caching, calendar permissions, updating offline address book, signature...
+Outlook overriding PST/OST file size in Registry Editor, enabling/disabling caching, calendar permissions, updating offline address book, signature, configuring user interface (fonts, panes, disable automatically marking e-mail as read,)...
 
 Remove WSUS from Registry Editor and common troubleshooting tips for Windows Update, including stopping &quot;bits&quot; and &quot;wuauserv&quot; (via services.msc and PowerShell), renaming &quot;SoftwareDistribution&quot; and starting them back.
 
