@@ -18,6 +18,8 @@ https://xkcd.com/627/
 
 Soft skills such as logging tickets, phone etiquette, booking calendar, appointments, escalating issues within 15 minutes, learn the preferred communication style of your colleagues (we use Teams).
 
+Use "Access Work or School" to remove and re-add account for Office login issues (particularly with inTune)
+
 Split into theory and practical sections
 
 Setting up printer server, using Printer Management and Group Policy.
