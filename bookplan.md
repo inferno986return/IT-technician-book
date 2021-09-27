@@ -18,13 +18,15 @@ https://xkcd.com/627/
 
 Soft skills such as logging tickets, phone etiquette, booking calendar, appointments, escalating issues within 15 minutes, learn the preferred communication style of your colleagues (we use Teams).
 
-Use "Access Work or School" to remove and re-add account for Office login issues (particularly with inTune)
-
 Split into theory and practical sections
+
+FSMO roles, what they do, using `netdom query fsmo` to find the server that has them and moving or seizing them if needed. Use the DRIPS mneumonic.
+
+Use "Access Work or School" to remove and re-add account for Office login issues (particularly with inTune)
 
 Setting up printer server, using Printer Management and Group Policy.
 
-Network commands such as: ipconfig, ping, pathping, tracert, nslookup, arp
+Network commands such as: `ipconfig` and `ifconfig`, `ping`, `pathping`, `tracert`, `nslookup`, `arp`
 
 Installing and updating Sage 50 Accounts, importance of backing up company data (to prevent a snowball effect of error growth)
 
