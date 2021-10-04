@@ -21,14 +21,20 @@ Soft skills such as logging tickets, phone etiquette, booking calendar, appointm
 Split into theory and practical sections
 
 FSMO roles, what they do, using `netdom query fsmo` to find the server that has them and moving or seizing them if needed. Use the DRIPS mneumonic.
+https://docs.microsoft.com/en-us/powershell/module/activedirectory/move-addirectoryserveroperationmasterrole?view=windowsserver2019-ps
 
-Use "Access Work or School" to remove and re-add account for Office login issues (particularly with inTune)
+
+Use "Access Work or School" to remove and re-add account for Office login issues (particularly with inTune) for programs such as Outlook and Teams.
+
+HP printer driver fix commands to reset print spooler and WIA driver respectively: `net start spooler && del %systemroot%\system32\spool\printers\*.shd && del %systemroot\system32\spool\printers\*.spl && net start spooler && sc config spooler depend=RPCSS` and `net stop StiSvc && sc config StiSvc depend= RpcSs/ShellHWDetection && REG add "HKLM\SYSTEM\CurrentControlSet\services\StiSvc" /v Start /t REG_DWORD /d 2 /f && net stop ShellHWDetection && REG add "HKLM\SYSTEM\CurrentControlSet\services\ShellHWDetection" /v Start /t REG_DWORD /d 2 /f && net start ShellHWDetection && net start StiSvc`
+
+Symbolic links in Windows to move iTunes backup location
 
 Setting up printer server, using Printer Management and Group Policy.
 
 Network commands such as: `ipconfig` and `ifconfig`, `ping`, `pathping`, `tracert`, `nslookup`, `arp`
 
-Installing and updating Sage 50 Accounts, importance of backing up company data (to prevent a snowball effect of error growth)
+Installing and updating Sage 50 Accounts, importance of backing up company data (to prevent a snowball effect of error growth), making a user account...
 
 Setting up an Exchange server, setting alias, integrating with Active Directory, etc.
 
@@ -110,7 +116,7 @@ CCleaner, Advanced System Care and Malwarebyte&#39;s...
 
 Section on…
 
-Using TeamViewer and AnyDesk, particularly setting it up on Mac. Demonstrate connecting, setting up unattended access, redirected printing,
+Using TeamViewer and AnyDesk, particularly setting it up on Mac (https://community.teamviewer.com/English/kb/articles/44699-how-to-control-a-mac). Also demonstrate connecting, setting up unattended access, redirected printing,
 
 Soft skills, setting up a software update or installation. Taking a snapshot on the hypervisor (vmware untick memory cache)...
 
