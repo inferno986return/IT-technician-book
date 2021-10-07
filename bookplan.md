@@ -23,7 +23,6 @@ Split into theory and practical sections
 FSMO roles, what they do, using `netdom query fsmo` to find the server that has them and moving or seizing them if needed. Use the DRIPS mneumonic.
 https://docs.microsoft.com/en-us/powershell/module/activedirectory/move-addirectoryserveroperationmasterrole?view=windowsserver2019-ps
 
-
 Use "Access Work or School" to remove and re-add account for Office login issues (particularly with inTune) for programs such as Outlook and Teams.
 
 HP printer driver fix commands to reset print spooler and WIA driver respectively: `net start spooler && del %systemroot%\system32\spool\printers\*.shd && del %systemroot\system32\spool\printers\*.spl && net start spooler && sc config spooler depend=RPCSS` and `net stop StiSvc && sc config StiSvc depend= RpcSs/ShellHWDetection && REG add "HKLM\SYSTEM\CurrentControlSet\services\StiSvc" /v Start /t REG_DWORD /d 2 /f && net stop ShellHWDetection && REG add "HKLM\SYSTEM\CurrentControlSet\services\ShellHWDetection" /v Start /t REG_DWORD /d 2 /f && net start ShellHWDetection && net start StiSvc`
@@ -31,6 +30,8 @@ HP printer driver fix commands to reset print spooler and WIA driver respectivel
 Symbolic links in Windows to move iTunes backup location
 
 Setting up printer server, using Printer Management and Group Policy.
+
+Troubleshooting printing on remote environments and ensure the printer is configured on local machine correctly.
 
 Network commands such as: `ipconfig` and `ifconfig`, `ping`, `pathping`, `tracert`, `nslookup`, `arp`
 
