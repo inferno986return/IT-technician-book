@@ -25,6 +25,8 @@ https://docs.microsoft.com/en-us/powershell/module/activedirectory/move-addirect
 
 Use "Access Work or School" to remove and re-add account for Office login issues (particularly with inTune) for programs such as Outlook and Teams.
 
+Remove troublesome profile from TS server by going to This PC -> System -> Advanced System Settings -> Advanced -> Profiles, then deleted the profile and re-login.
+
 HP printer driver fix commands to reset print spooler and WIA driver respectively: `net start spooler && del %systemroot%\system32\spool\printers\*.shd && del %systemroot\system32\spool\printers\*.spl && net start spooler && sc config spooler depend=RPCSS` and `net stop StiSvc && sc config StiSvc depend= RpcSs/ShellHWDetection && REG add "HKLM\SYSTEM\CurrentControlSet\services\StiSvc" /v Start /t REG_DWORD /d 2 /f && net stop ShellHWDetection && REG add "HKLM\SYSTEM\CurrentControlSet\services\ShellHWDetection" /v Start /t REG_DWORD /d 2 /f && net start ShellHWDetection && net start StiSvc`
 
 Symbolic links in Windows to move iTunes backup location
