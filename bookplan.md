@@ -331,6 +331,10 @@ MOSH
 
 Docker
 
+Electricty 101 - what are AC / DC, as well as Volts, Amps and Watts? Especially in the context of computing. As well as unintteruptible power supplies.
+
+What did I do at Virtual Tech, how did I get in the role via apprenticeship?
+
 **Acknowledgments**
 
 CompTIA
