@@ -8,6 +8,52 @@ Quote: &quot;If I have seen further it is by standing on the shoulders of Giants
 
 Quote: &quot;Rosa Klebb: Training is useful, but there is no substitute for experience&quot;
 
+Can I use old e-mails as a basis for real problems?
+
+Use IT job descriptions as a basks
+
+How to get a job in IT? 1st line support
+
+Cover CompTIA basics but we can deviate into how to run a support desk.
+
+What is an MSP?
+
+E-mail protocols and examples, use Mozilla Thunderbird screenshots. Including POP3, IMAP, SMTP and Exchange ActiveSync, MAPI
+
+Office 365 mailbox warning e-mails -> Check on https://outlook.office.com
+
+Outlook troubleshooting and profiles
+
+PXE booting and SCCM
+
+Networking: TCP/IP, DNS, basic commands, firewalls (ping can be blocked), RDP/VNC
+
+Everything is based off a metaphor such as drivers and servers
+
+Remember the gym scenario from college which I can elaborate on it now.
+
+Recommend: ITServiceDeskHelp (Zac), Professor Messer, textbooks (old ones are still useful)
+
+SLAs, severity diagram (as defined by vmWare)
+
+Hyper-V
+
+Office 365...
+
+How to get into IT?
+
+CompTIA A+ and Network+ certifications, Microsoft certifications, M&C Saatchi,  
+
+DNS
+
+Server editions and CALs
+
+Interview questions and scenarios:
+
+* What is the difference between Windows Pro and Home
+* What is the difference between TCP and UDP?
+* A user isn't getting e-mail in Microsoft Outlook
+
 Acknowledgements (for everyone)
 
 Preface explaining motivations for this book including Jack Greenway, wanting to explain what I learnt in Curry&#39;s and having a practical use for my apprenticeship work… Maybe have an xkcd comic?
@@ -346,3 +392,14 @@ The Knowledge Academy
 MBit Training
 
 3AAA
+
+## E-mail chapter
+
+* Open e-mail ports and protocols: POP3, IMAP, SMTP
+* Proprietary e-mail ports and protocols: Exchange ActiveSync, MAPI
+* Verify authenticity: SPF and DKIM
+* Analysing headers (using MXToolbox.com)
+* Check Office 365 webmail at: https://outlook.office.com/
+* Out of space e-mails - check legitimacy at the webmail
+* Configuring Outlook: adding accounts, shared mailboxes are mapped automatically...
+* Troubleshooting Outlook: status bar, working offline, Outlook profiles, .pst and .ost files...
