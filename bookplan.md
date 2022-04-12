@@ -27,22 +27,28 @@
 ## Networking chapter
 
 * TCP/IP and the OSI model
-* Common networking ports and protocols: DNS, DHCP, ICMP, SNMP, HTTP, HTTPS...
-* Common networking commands: ipconfig, ifconfig, ping (POSIX ping vs Windows ping), pathping, traceroute (and tracert),
+* TCP and UDP
+* What is a protocol? - A set of rules between 2 or more devices
+* Common networking ports and protocols (tehnically any port and protocol could apply here): DNS, DHCP, ICMP, SNMP, HTTP, HTTPS, SIP...
+* Common networking commands: ipconfig, ifconfig, ping (POSIX ping vs Windows ping), pathping, traceroute (and tracert), host
 * DHCP and static IP addresses - leases, DORA,
+* NAT
 * Resetting network stack
 * Wi-Fi standard (IEEE 802.11) - WEP, WPA, WPA2, TKIP, a, b, g, n, ac, ag, 2.4GHz, 5GHz, channels
 * Ethernet standard (IEEE 802.3) - RJ-45, CAT5, CAT5e, CAT6, CAT6a and CAT7
 * Crossover and twisted-pair Ethernet cables
 * Old cable standards: coaxial...
+* Networking hardware: router, switch, hub, modem, PoE, EoP (powerline), firewall, IDS/IPS
 
 ## Printing chapter
 
 * Printer cable - USB-B
 * Common protocols:
 * Wi-Fi printing
+* USB printing
+* Ethernet printing
 * Types of printer (old CompTIA syllabus went crazy with printer types): inkjet, laser and thermal
-* Simplex and duplex
+* Simplex and duplex printing
 * A paper sizes - A3, A4 - use the cool Fibonnaci-style diagram
 * CUPS and SMB printing
 
@@ -78,6 +84,10 @@
 
 * References
 * Further reading
+
+## Appendices
+
+* Table of common ports and protocols
 
 ## Planning notes
 
