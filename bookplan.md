@@ -1,6 +1,87 @@
 # IT technician book
 
-Start by adapting CompTIA and MCSA notes over on [Overleaf](https://www.overleaf.com/)), diary entries, any information that&#39;s relevant.
+## Hardware chapter
+
+## Power chapter
+
+* AC and DC - use ~ for AC and...
+* Kettle plug
+* DC plugs
+* Transformer (the cuboid box on a laptop charger for example)
+* Watts, Amps and Volts
+* Check the power requirements for a device
+* Careful not to provide too much power as it can damage a device over time!
+
+## E-mail chapter
+
+* Open e-mail ports and protocols: POP3, IMAP, SMTP
+* Proprietary e-mail ports and protocols: Exchange ActiveSync, MAPI
+* Verify authenticity: SPF and DKIM
+* Analysing headers (using MXToolbox.com)
+* Check Office 365 webmail at: https://outlook.office.com/
+* Out of space e-mails - check legitimacy at the webmail
+* Configuring Outlook: adding accounts, shared mailboxes are mapped automatically...
+* Troubleshooting Outlook: status bar, working offline, Outlook profiles, .pst and .ost files...
+* Outlook for Mac
+
+## Networking chapter
+
+* TCP/IP and the OSI model
+* Common networking ports and protocols: DNS, DHCP, ICMP, SNMP, HTTP, HTTPS...
+* Common networking commands: ipconfig, ifconfig, ping (POSIX ping vs Windows ping), pathping, traceroute (and tracert),
+* DHCP and static IP addresses - leases, DORA,
+* Resetting network stack
+* Wi-Fi standard (IEEE 802.11) - WEP, WPA, WPA2, TKIP, a, b, g, n, ac, ag, 2.4GHz, 5GHz, channels
+* Ethernet standard (IEEE 802.3) - RJ-45, CAT5, CAT5e, CAT6, CAT6a and CAT7
+* Crossover and twisted-pair Ethernet cables
+* Old cable standards: coaxial...
+
+## Printing chapter
+
+* Printer cable - USB-B
+* Common protocols:
+* Wi-Fi printing
+* Types of printer (old CompTIA syllabus went crazy with printer types): inkjet, laser and thermal
+* Simplex and duplex
+* A paper sizes - A3, A4 - use the cool Fibonnaci-style diagram
+* CUPS and SMB printing
+
+## Scanning chapter
+
+* Scanner cable - USB-B
+* TWAIN and WIA standards
+* DPI
+* Flatbed and feeder scanners
+* OCR
+* Scan to e-mail
+* Scan to USB
+
+## Filesharing chapter
+
+* Common protocols: FTP, SFTP, FTPS, SMB, NFS, Bittorrent
+* Centralised vs peer-to-peer (P2P) filesharing
+* NTFS permissions
+* POSIX permissions
+* File servers
+* NAS and SAN
+* RAID
+
+## Troubleshooting Microsoft Windows
+
+* Restart
+* Running updates
+* sfc /scannow
+
+## Glossary
+
+## Bibliography
+
+* References
+* Further reading
+
+## Planning notes
+
+Start by adapting CompTIA and MCSA notes over on [Overleaf](https://www.overleaf.com/)), diary entries, any information that&#39;s relevant. I can also adapt college assignment material.
 
 Quote: &quot;It takes the smartest individuals to realize there&#39;s always more to learn.&quot;
 
@@ -10,7 +91,7 @@ Quote: &quot;Rosa Klebb: Training is useful, but there is no substitute for expe
 
 Can I use old e-mails as a basis for real problems?
 
-Use IT job descriptions as a basks
+Use IT job descriptions as a basis
 
 How to get a job in IT? 1st line support
 
@@ -392,14 +473,3 @@ The Knowledge Academy
 MBit Training
 
 3AAA
-
-## E-mail chapter
-
-* Open e-mail ports and protocols: POP3, IMAP, SMTP
-* Proprietary e-mail ports and protocols: Exchange ActiveSync, MAPI
-* Verify authenticity: SPF and DKIM
-* Analysing headers (using MXToolbox.com)
-* Check Office 365 webmail at: https://outlook.office.com/
-* Out of space e-mails - check legitimacy at the webmail
-* Configuring Outlook: adding accounts, shared mailboxes are mapped automatically...
-* Troubleshooting Outlook: status bar, working offline, Outlook profiles, .pst and .ost files...
