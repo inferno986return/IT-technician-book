@@ -61,6 +61,8 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Crossover and twisted-pair Ethernet cables
 * Old cable standards: coaxial...
 * Networking hardware: router, switch, hub, modem, PoE, EoP (powerline), firewall, IDS/IPS
+* Topologies
+* GSM
 
 ## Printing chapter
 
@@ -107,6 +109,9 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 
 * References
 * Further reading
+I recommend the following books. Even though they are several years old, much of the information is still relevant:
+  * https://www.amazon.co.uk/dp/1326150251/ *Comptia Network+ V6 Study Guide - Indie Copy* (2015), Matthew Bennett, lulu.com, (ISBN-13: 978-1326150259)
+  * https://www.amazon.co.uk/dp/8126562706 *Comptia A+ Complete Study Guide: Exams 220-901 and 220-902* (2016, 3rd Edition), Quentin Docter, Emmett Dulaney, Toby Skandier, Wiley India Pvt., (ISBN-13: 978-8126562701)
 
 ## Appendices
 
