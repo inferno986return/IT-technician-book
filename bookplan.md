@@ -1,6 +1,26 @@
 # IT technician book
 
+A CompTIA/MCSA inspired book with plenty of information for getting your first job in IT. I recommend experimenting and have a practical chapter to familarise yourself with Windows Server.
+
 ## Hardware chapter
+
+## Monitor chapter
+
+Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining and one cable), HDMI (each version of the HDMI spec has its own cable), size in inches, multi-monitoring instructions, overscan, running without a monitor is headless
+
+## Keyboard
+
+* International Keybaord layouts - each country has one
+* Alternative keyboard layouts - Colemak and Dvorak (Tip: The Dvorak keyboard has the fastest WPM when mastered.)
+* Apple keyboard
+* Membrane keyboards
+* Mechanical keyboars
+* Numpad
+* Lock keys - Numlock, Scroll Lock, Caps Lock
+* Text position keys - Home, End, Insert, Page Up, Page Down
+* ISO Return vs ANSI Enter
+* Super key (Winkey)
+* Function key (fn)
 
 ## Power chapter
 
@@ -11,6 +31,7 @@
 * Watts, Amps and Volts
 * Check the power requirements for a device
 * Careful not to provide too much power as it can damage a device over time!
+* Power Supply Units (PSU) - wattage, modular, semi-modular, non-modular, efficiency ratings (80+ bronze, etc.)
 
 ## E-mail chapter
 
@@ -27,6 +48,7 @@
 ## Networking chapter
 
 * TCP/IP and the OSI model
+* MAC addresses
 * TCP and UDP
 * What is a protocol? - A set of rules between 2 or more devices
 * Common networking ports and protocols (tehnically any port and protocol could apply here): DNS, DHCP, ICMP, SNMP, HTTP, HTTPS, SIP...
@@ -43,7 +65,8 @@
 ## Printing chapter
 
 * Printer cable - USB-B
-* Common protocols:
+* Common protocols: SMB,
+* Drivers
 * Wi-Fi printing
 * USB printing
 * Ethernet printing
@@ -91,6 +114,15 @@
 
 ## Planning notes
 
+I need to look at the *For Dummies* books for inspiration. I'm thinking of using Material icons for infoboxes such as
+
+* A lightbulb icon for tips to keep in mind such as a ping request may fail because a network firewall is blocking it, rather than the destination resource being unavailable
+* An unlocked padlock icon for insecure technology such as HTTP and WEP.
+* A warning triangle for dangerous procedures i.e. flashing BIOS and disassemmbling a PSU.
+* A university cap for advanced information.
+
+I can use black boxes with white text for terminal commands.
+
 Start by adapting CompTIA and MCSA notes over on [Overleaf](https://www.overleaf.com/)), diary entries, any information that&#39;s relevant. I can also adapt college assignment material.
 
 Quote: &quot;It takes the smartest individuals to realize there&#39;s always more to learn.&quot;
@@ -108,6 +140,14 @@ How to get a job in IT? 1st line support
 Cover CompTIA basics but we can deviate into how to run a support desk.
 
 What is an MSP?
+
+Paper sizes - A3, A4, letter, thermal roll
+Networking
+Scanning - DPI, flatbed, feeder
+
+Types of firewall
+
+Add A+ and Network+ ports and protocols
 
 E-mail protocols and examples, use Mozilla Thunderbird screenshots. Including POP3, IMAP, SMTP and Exchange ActiveSync, MAPI
 
