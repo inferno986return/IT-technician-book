@@ -4,11 +4,11 @@ A CompTIA/MCSA inspired book with plenty of information for getting your first j
 
 ## Hardware chapter
 
-## Monitor chapter
+### Monitor chapter
 
 Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining and one cable), HDMI (each version of the HDMI spec has its own cable), size in inches, multi-monitoring instructions, overscan, running without a monitor is headless
 
-## Keyboard
+### Keyboard chapter
 
 * International Keybaord layouts - each country has one
 * Alternative keyboard layouts - Colemak and Dvorak (Tip: The Dvorak keyboard has the fastest WPM when mastered.)
@@ -22,7 +22,7 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Super key (Winkey)
 * Function key (fn)
 
-## Power chapter
+### Power chapter
 
 * AC and DC - use ~ for AC and...
 * Kettle plug
@@ -32,6 +32,10 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Check the power requirements for a device
 * Careful not to provide too much power as it can damage a device over time!
 * Power Supply Units (PSU) - wattage, modular, semi-modular, non-modular, efficiency ratings (80+ bronze, etc.)
+
+### Storage chapter
+
+### RAM chapter
 
 ## E-mail chapter
 
@@ -91,11 +95,33 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 
 * Common protocols: FTP, SFTP, FTPS, SMB, NFS, Bittorrent
 * Centralised vs peer-to-peer (P2P) filesharing
+* SMB/CIFS (and Samba)
 * NTFS permissions
 * POSIX permissions
 * File servers
 * NAS and SAN
 * RAID
+
+## Virtualisation
+
+## Installing Microsoft Windows
+
+* Common protocols: TFTP
+* Windows 10 and 11 editions - such as Home, Pro, Enterprise (KMS), Education (as well as end of life)
+* Windows Server 2016 and 2019 editions - such as Essentials, Standard, Datacenter (as well as end of life)
+* Minimum and recommended requirements
+* Types of installation: zero-touch
+* PXE
+* Creating Windows images - WIM files, dism...
+
+## Introduction to Active Directory
+
+* What is Active Directory?
+* What is a domain controller?
+* Active Directory suite - MMC snap-ins such as AD:CS, AD:UC, AD:SS, AD:DT, AD:AA...
+* Maintenance tools -
+* FSMO roles and the DRIPS pneumonic
+* Client Access Licenses (CALs)
 
 ## Troubleshooting Microsoft Windows
 
@@ -110,8 +136,10 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * References
 * Further reading
 I recommend the following books. Even though they are several years old, much of the information is still relevant:
-  * https://www.amazon.co.uk/dp/1326150251/ *Comptia Network+ V6 Study Guide - Indie Copy* (2015), Matthew Bennett, lulu.com, (ISBN-13: 978-1326150259)
-  * https://www.amazon.co.uk/dp/8126562706 *Comptia A+ Complete Study Guide: Exams 220-901 and 220-902* (2016, 3rd Edition), Quentin Docter, Emmett Dulaney, Toby Skandier, Wiley India Pvt., (ISBN-13: 978-8126562701)
+  * [https://www.amazon.co.uk/dp/1326150251/](*Comptia Network+ V6 Study Guide - Indie Copy*) (2015), Matthew Bennett, lulu.com, ISBN-13: 978-1326150259
+  * [https://www.amazon.co.uk/dp/8126562706](*Comptia A+ Complete Study Guide: Exams 220-901 and 220-902*) (2016, 3rd Edition), Quentin Docter, Emmett Dulaney, Toby Skandier, Wiley India Pvt., ISBN-13: 978-8126562701
+  * [https://www.amazon.co.uk/dp/1509307842/](*Exam Ref 70-698 Installing and Configuring Windows 10*) (2018, 2nd Edition), Andrew Bettany, Andrew Warren, Microsoft Press, ISBN-13: 978-1509307845
+  * [https://www.amazon.co.uk/dp/B06XS2R7T8](*Exam Ref 70-742 Identity with Windows Server 2016, First Edition*) (2017), Microsoft Press, Andrew Warren, ISBN-13: 978-0735698819
 
 ## Appendices
 
@@ -135,6 +163,8 @@ Quote: &quot;It takes the smartest individuals to realize there&#39;s always mor
 Quote: &quot;If I have seen further it is by standing on the shoulders of Giants.&quot;
 
 Quote: &quot;Rosa Klebb: Training is useful, but there is no substitute for experience&quot;
+
+Could have an xkcd comic such as this in the preface: https://xkcd.com/627/
 
 Can I use old e-mails as a basis for real problems?
 
