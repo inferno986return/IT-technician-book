@@ -2,6 +2,8 @@
 
 A CompTIA/MCSA inspired book with plenty of information for getting your first job in IT. I recommend experimenting and have a practical chapter to familarise yourself with Windows Server.
 
+## Preface
+
 ## Hardware chapter
 
 ### Monitor chapter
@@ -67,6 +69,7 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Networking hardware: router, switch, hub, modem, PoE, EoP (powerline), firewall, IDS/IPS
 * Topologies
 * GSM
+* Certificates 101 - how they work, prime numbers, advanced: concerns with Shor's algorithm beating certificates, TLS/SSL
 
 ## Printing chapter
 
@@ -102,6 +105,10 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * NAS and SAN
 * RAID
 
+## Web server chapter
+
+* LAMP stack
+
 ## Virtualisation
 
 ## Installing Microsoft Windows
@@ -113,15 +120,32 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Types of installation: zero-touch
 * PXE
 * Creating Windows images - WIM files, dism...
+* Creating a recovery USB - used to charge £30 for this at Currys/PC World.
+* Reset Windows 10 and 11
+
+## Post-installation on Microsoft Windows
+
+* Adding to an Active Directory domain on Windows 10 and 11 - GUI, PowerShell, CMD (if applicable)
+
+## Installing Microsoft Windows applications
+
+* Downloading software
+* Microsoft Office - https://office.com/setup
 
 ## Introduction to Active Directory
 
 * What is Active Directory?
+* Forests, domains and child domains
 * What is a domain controller?
 * Active Directory suite - MMC snap-ins such as AD:CS, AD:UC, AD:SS, AD:DT, AD:AA...
+* Active Directory objects - users, groups (security and distribution), printers, organizational units
+* Group Policy - policies and preferences, templates, Resultant Set of Policy, ordering with the LSDOU pneumonic, software installation (via .msi and .zapp files)
+* Domain functional levels
 * Maintenance tools -
 * FSMO roles and the DRIPS pneumonic
 * Client Access Licenses (CALs)
+
+### Practical: Create a domain from scratch
 
 ## Troubleshooting Microsoft Windows
 
@@ -142,8 +166,11 @@ I recommend the following books. Even though they are several years old, much of
   * [https://www.amazon.co.uk/dp/B06XS2R7T8](*Exam Ref 70-742 Identity with Windows Server 2016, First Edition*) (2017), Microsoft Press, Andrew Warren, ISBN-13: 978-0735698819
 
 ## Appendices
+Mostly reference pages:
 
-* Table of common ports and protocols
+* Table of all the common ports and protocols
+* NATO alpabet table
+* Table of all the commands
 
 ## Planning notes
 
