@@ -147,6 +147,16 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 
 ### Practical: Create a domain from scratch
 
+### Practical: Created a shared folder
+
+### Practical: Configure a Windows 10 computer, add to the domain and map the shared drive
+
+## Shared-server
+
+* Common protocols: RDP, VNC
+* What is Citrix?
+* Client Access Licenses (CALs)
+
 ## Troubleshooting Microsoft Windows
 
 * Restart
