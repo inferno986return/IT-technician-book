@@ -61,6 +61,7 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Common networking commands: ipconfig, ifconfig, ping (POSIX ping vs Windows ping), pathping, traceroute (and tracert), host
 * DHCP and static IP addresses - leases, DORA,
 * NAT
+* DNS - local DNS (hosts file), DNS servers (including Google's own 8.8.8.8 server), prerequisite of Active Directory
 * Resetting network stack
 * Wi-Fi standard (IEEE 802.11) - WEP, WPA, WPA2, TKIP, a, b, g, n, ac, ag, 2.4GHz, 5GHz, channels
 * Ethernet standard (IEEE 802.3) - RJ-45, CAT5, CAT5e, CAT6, CAT6a and CAT7
