@@ -53,24 +53,26 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 
 ## Networking chapter
 
-* TCP/IP and the OSI model
-* MAC addresses
-* TCP and UDP
-* What is a protocol? - A set of rules between 2 or more devices
-* Common networking ports and protocols (tehnically any port and protocol could apply here): DNS, DHCP, ICMP, SNMP, HTTP, HTTPS, SIP...
-* Common networking commands: ipconfig, ifconfig, ping (POSIX ping vs Windows ping), pathping, traceroute (and tracert), host
-* DHCP and static IP addresses - leases, DORA,
-* NAT
-* DNS - local DNS (hosts file), DNS servers (including Google's own 8.8.8.8 server), prerequisite of Active Directory
-* Resetting network stack
-* Wi-Fi standard (IEEE 802.11) - WEP, WPA, WPA2, TKIP, a, b, g, n, ac, ag, 2.4GHz, 5GHz, channels
+### Networking hardware
+* Wi-Fi standard (IEEE 802.11) - WEP, WPA, WPA2, WPA3, TKIP, AES, a, b, g, n, ac, ag, 2.4GHz, 5GHz, channels
 * Ethernet standard (IEEE 802.3) - RJ-45, CAT5, CAT5e, CAT6, CAT6a and CAT7
 * Crossover and twisted-pair Ethernet cables
 * Old cable standards: coaxial...
 * Networking hardware: router, switch, hub, modem, PoE, EoP (powerline), firewall, IDS/IPS
 * Topologies
 * GSM
+
+### Networking software
+* TCP/IP and the OSI model - IPv4 (IP address exhaustion) and IPv6, subnet mask and the default gateway
+* MAC addresses - 48 bit hexademical, IEEE register, ARP
+* What is a protocol? - A set of rules between 2 or more devices, TCP and UDP, port numbers
+* Common networking ports and protocols (tehnically any port and protocol could apply here): DNS, DHCP, ICMP, SNMP, HTTP, HTTPS, SIP...
+* Common networking commands: `ipconfig`, `ifconfig`, `ping` (POSIX `ping` vs Windows `ping`), `pathping`, `traceroute` (and `tracert`), `host`
+* DHCP and static IP addresses - leases, DORA,
+* NAT - network address translation
+* DNS - local DNS (hosts file), DNS servers (including Google's own 8.8.8.8 server), prerequisite of Active Directory
 * Certificates 101 - how they work, prime numbers, advanced: concerns with Shor's algorithm beating certificates, TLS/SSL
+* Pre-TCP/IP standarisation - NetBIOS, AppleTalk
 
 ## Printing chapter
 
@@ -82,7 +84,10 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Ethernet printing
 * Types of printer (old CompTIA syllabus went crazy with printer types): inkjet, laser and thermal
 * Simplex and duplex printing
+* US letter paper size
 * A paper sizes - A3, A4 - use the cool Fibonnaci-style diagram
+* B paper sizes -
+* Note: Both A and B paper sizes use the Lichtenberg ratio (not the Golden ratio as Persona 5 incorrectly states)
 * CUPS and SMB printing
 
 ## Scanning chapter
@@ -101,7 +106,7 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Centralised vs peer-to-peer (P2P) filesharing
 * SMB/CIFS (and Samba)
 * NTFS permissions
-* POSIX permissions
+* POSIX permissions - the dangers of `chmod -777`
 * File servers
 * NAS and SAN
 * RAID
@@ -109,8 +114,12 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 ## Web server chapter
 
 * LAMP stack
+* Separate from a Windows domain environment
+* Domain names
 
 ## Virtualisation
+
+* Hyper-V - requirements, Gen 1 and Gen 2, .VHD and .VHDX, nested virtualisation (use matryoshka dolls for example)
 
 ## Installing Microsoft Windows
 
@@ -121,12 +130,12 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Types of installation: zero-touch
 * PXE
 * Creating Windows images - WIM files, dism...
-* Creating a recovery USB - used to charge £30 for this at Currys/PC World.
-* Reset Windows 10 and 11
 
 ## Post-installation on Microsoft Windows
 
 * Adding to an Active Directory domain on Windows 10 and 11 - GUI, PowerShell, CMD (if applicable)
+* Creating a recovery USB - used to charge £30 for this at Currys/PC World.
+* Reset Windows 10 and 11
 
 ## Installing Microsoft Windows applications
 
@@ -163,6 +172,7 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Restart
 * Running updates
 * sfc /scannow
+* Resetting network stack
 
 ## Glossary
 
@@ -187,7 +197,7 @@ Mostly reference pages:
 
 I need to look at the *For Dummies* books for inspiration. I'm thinking of using Material icons for infoboxes such as
 
-* A lightbulb icon for tips to keep in mind such as a ping request may fail because a network firewall is blocking it, rather than the destination resource being unavailable
+* A lightbulb icon for tips to keep in mind such as a `ping` request may fail because a network firewall is blocking it, rather than the destination resource being unavailable
 * An unlocked padlock icon for insecure technology such as HTTP and WEP.
 * A warning triangle for dangerous procedures i.e. flashing BIOS and disassemmbling a PSU.
 * A university cap for advanced information.
