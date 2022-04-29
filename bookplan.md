@@ -2,13 +2,15 @@
 
 A CompTIA/MCSA inspired book with plenty of information for getting your first job in IT. I recommend experimenting and have a practical chapter to familarise yourself with Windows Server.
 
+The goal is to create a book that makes entering the world of IT easier. It's a general guide based off my own real-world experience and is not tied down to a particular certification though I am combining information from the CompTIA trifecta (A+, Network+, Security+), as well as several Microsoft certifications.
+
 ## Preface
 
 ## Hardware chapter
 
 ### Monitor chapter
 
-Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining and one cable), HDMI (each version of the HDMI spec has its own cable), size in inches, multi-monitoring instructions, overscan, running without a monitor is headless
+Monitors - refresh rate, sizes, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining and one cable), HDMI (each version of the HDMI spec has its own cable), size in inches, multi-monitoring instructions, overscan, running without a monitor is headless
 
 ### Keyboard chapter
 
@@ -16,7 +18,7 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Alternative keyboard layouts - Colemak and Dvorak (Tip: The Dvorak keyboard has the fastest WPM when mastered.)
 * Apple keyboard
 * Membrane keyboards
-* Mechanical keyboars
+* Mechanical keyboards
 * Numpad
 * Lock keys - Numlock, Scroll Lock, Caps Lock
 * Text position keys - Home, End, Insert, Page Up, Page Down
@@ -37,6 +39,13 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 
 ### Storage chapter
 
+### CPU chapter
+
+* RISC and CISC
+* ARM, Intel, MIPS
+* Frequency, cores, hyperthreading
+* Virtualisation support
+
 ### RAM chapter
 
 ## E-mail chapter
@@ -45,11 +54,17 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Proprietary e-mail ports and protocols: Exchange ActiveSync, MAPI
 * Verify authenticity: SPF and DKIM
 * Analysing headers (using MXToolbox.com)
-* Check Office 365 webmail at: https://outlook.office.com/
 * Out of space e-mails - check legitimacy at the webmail
 * Configuring Outlook: adding accounts, shared mailboxes are mapped automatically...
 * Troubleshooting Outlook: status bar, working offline, Outlook profiles, .pst and .ost files...
 * Outlook for Mac
+* Automatic replies
+
+### Microsoft 365
+
+* Check Office 365 webmail at: https://outlook.office.com/
+* Set mailbox permissions
+* Admin types
 
 ## Networking chapter
 
@@ -58,9 +73,9 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Ethernet standard (IEEE 802.3) - RJ-45, CAT5, CAT5e, CAT6, CAT6a and CAT7
 * Crossover and twisted-pair Ethernet cables
 * Old cable standards: coaxial...
-* Networking hardware: router, switch, hub, modem, PoE, EoP (powerline), firewall, IDS/IPS
-* Topologies
-* GSM
+* Networking hardware (both commercial and SOHO variants): router, switch, hub, modem, PoE, EoP (powerline), firewall, IDS/IPS
+* ~~Topologies: star, bus,~~
+* Cellular: GSM
 
 ### Networking software
 * TCP/IP and the OSI model - IPv4 (IP address exhaustion) and IPv6, subnet mask and the default gateway
@@ -104,7 +119,7 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 
 * Common protocols: FTP, SFTP, FTPS, SMB, NFS, Bittorrent
 * Centralised vs peer-to-peer (P2P) filesharing
-* SMB/CIFS (and Samba)
+* SMB/CIFS (and Samba) - as well as `net use` and `net share`, also creating a script that maps shares automatically
 * NTFS permissions
 * POSIX permissions - the dangers of `chmod -777`
 * File servers
@@ -149,6 +164,8 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * What is a domain controller?
 * Active Directory suite - MMC snap-ins such as AD:CS, AD:UC, AD:SS, AD:DT, AD:AA...
 * Active Directory objects - users, groups (security and distribution), printers, organizational units
+* Active Directory recycle bin
+* ADSIEdit
 * Group Policy - policies and preferences, templates, Resultant Set of Policy, ordering with the LSDOU pneumonic, software installation (via .msi and .zapp files)
 * Domain functional levels
 * Maintenance tools -
@@ -156,6 +173,8 @@ Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining an
 * Client Access Licenses (CALs)
 
 ### Practical: Create a domain from scratch
+
+Secondary school setup
 
 ### Practical: Created a shared folder
 
@@ -190,10 +209,80 @@ I recommend the following books. Even though they are several years old, much of
 Mostly reference pages:
 
 * Table of all the common ports and protocols
-* NATO alpabet table
+* NATO alphabet table
 * Table of all the commands
 
 ## Planning notes
+
+Question at the top: How can I get a 1st line IT support job?
+
+Preface
+
+Aggregate useful information from my own experiences and certifications. Even expired certifications can contain information that is both relevant and useful.
+
+This book is not a substitute for 
+
+Better main categories: Hardware, Networking, Microsoft Windows, Mac, GNU/Linux, Servers, Mobile Devices
+
+NATO alphabet appendix
+
+Use cbtnuggets for information.
+
+Icon for old tech like a floppy disk?
+
+Advanced: Supercomputer - Met Office and quantum computer
+
+Hardware - motherboard, RAM, CPU, optical drive, fans (3-pin and 4-pin PWM), storage
+
+Data recovery chapter - all I learnt including logical and physical recovery
+
+Storage - SSD, HDD, Hybrid, eMMC, UFS, SMART, SATA, IDE,
+
+Optical - CD, DVD, Blu-Ray
+
+Update the licence key via Settings
+
+Parted Magic
+
+Mac section - what is macOS
+
+GNU/Linux section - a different approach to computing
+
+Old monitor adapters - VGA and DVI, also aspect ratios of 4:3, 16:9, 16:10, CRT
+
+Virtualisation and setting up Windows Server, then Active Directory 101
+
+Further reading - Introduction to Windows 10, Microsoft Server 2016, current CompTIA A+ book...
+
+Udemy videos could be useful
+
+Paper sizes - A3, A4, letter, thermal roll
+Networking
+Scanning - DPI, flatbed, feeder
+
+Monitors - refresh rate, TN, IPS, LCD, OLED, LED, DisplayPort (daisy-chaining and one cable), HDMI (each version of the HDMI spec has its own cable), size in inches, multi-monitoring instructions, overscan, running without a monitor is headless
+
+Types of firewall
+
+Add A+ and Network+ ports and protocols
+
+Common interview questions (that I experienced and Googled)
+
+Common job criteria (Google them and adapt them into the book)
+
+Backup section - incremental, differential, backup tape vs HDD, book vs scroll
+
+MMC - Print Management
+
+RODC, global catalog
+
+Data wiping - Blancco, DBAN - Mersenne Twister
+
+Outlook - rules and data policies
+
+Win10 cert - GPT vs MBR, WindowsPE, dism...
+
+MBAM checks for unauthorised commercial use
 
 I need to look at the *For Dummies* books for inspiration. I'm thinking of using Material icons for infoboxes such as
 

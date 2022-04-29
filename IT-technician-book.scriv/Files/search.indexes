@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="130C3B39-1853-4ADB-A2EE-F9502BFFC8E1"/>
+        <Document ID="5467B088-332E-4160-A6B1-3935BFC39F61">
+            <Title>Foreword</Title>
+            <Text>Foreword
+
+How do I get my first job in IT support?
+Tech certifications
+
+Why did I write this book?
+
+This book has been inspired by my own attempts (which after a few years have been successful) at entering the IT support industry and a desire to concisely document useful information from my work experience, personal research and by attempting several certifications.
+
+By writing my own book I can concisely document what I’ve learnt along the way without being confined to the exam objectives of a particular certification or qualification. I can make the work as pragmatic as I want to and include technologies
+
+Back in 2020, a friend of mine that I had met at my local college was interested in starting a career in IT messaged me that he had applied as a 1st line support analyst for a managed service provider (MSP) and was wondering what responsibilities should be expected of him.
+At the time I impulsively suggested learning the Active Directory: Users and Computers program and taking a CompTIA A+ certification. This book is designed to help answer this question in a more complete step-by-step process.
+
+In the current year I have two younger co-workers that were born in the Generation Z era with a different technological upbringing to my own. 
+
+My résumé in a nutshell
+
+Back in 2014, I dropped out of the University of Derby’s computer science course. I found the course difficult and I took too long on the assignments, though I still wanted to pursue the field of computing…
+
+2019 would be a significant year as I formally entered into the IT support industry. My first role was as an unpaid IT intern at M&amp;C Saatchi London and my responsibilities were predominately reducing the large pile of broken Dell and HP laptops by calling the manufacturer to arrange warranty and chargeable repairs. Some computers would be deemed beyond economic repair and would be disposed of. I would also assist with setting up the laptops and occasional desktop
+An unfortunate twist of fate for me is when M&amp;C Saatchi suffered a large accounting scandal just before I became a salaried employee after working 4 months as an intern. To mitigate this disaster there was significant internal restructuring required to keep the company solvent.
+Despite the frustration of being made redundant, I am grateful for my short position at M&amp;C Saatchi because I met many different interesting people and have fond memories of the organisation. I particularly like the company motto “brutal simplicity of thought”.
+
+
+The five icons
+
+I really like the icon system used in the popular For Dummies series by Wiley ,so I have utilised five icons to emphasise important points to keep in mind:
+
+#Unlocked padlock – technologies that use weak encryption or no encryption with content sent in cleartext
+# University cap – advanced content with some extra commentary that I recommend researching for yourself, though this is completely optional
+#Lightbulb – tips
+#Floppy disk – technologies and processes that are effectively obsolete and not commonly used
+#Warning triangle – dangerous to yourself or the technology being discussed</Text>
+        </Document>
+        <Document ID="DE9FB9BE-F139-4A31-8F6D-B4A45CD6C4C1">
+            <Title>Bibliography</Title>
+            <Text>Bibliography
+
+* References
+* Further reading
+I recommend the following books. Even though they are several years old, much of the information is still relevant:
+[https://www.amazon.co.uk/dp/1326150251/](*Comptia Network+ V6 Study Guide - Indie Copy*) (2015), Matthew Bennett, lulu.com, ISBN-13: 978-1326150259
+ [https://www.amazon.co.uk/dp/8126562706](*Comptia A+ Complete Study Guide: Exams 220-901 and 220-902*) (2016, 3rd Edition), Quentin Docter, Emmett Dulaney, Toby Skandier, Wiley India Pvt., ISBN-13: 978-8126562701
+[https://www.amazon.co.uk/dp/1509307842/](*Exam Ref 70-698 Installing and Configuring Windows 10*) (2018, 2nd Edition), Andrew Bettany, Andrew Warren, Microsoft Press, ISBN-13: 978-1509307845
+Exam Ref 70-742 Identity with Windows Server 2016, First Edition (2017), Microsoft Press, Andrew Warren, ISBN-13: 978-0735698819</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>
