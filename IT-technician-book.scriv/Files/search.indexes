@@ -1,7 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="130C3B39-1853-4ADB-A2EE-F9502BFFC8E1"/>
+        <Document ID="130C3B39-1853-4ADB-A2EE-F9502BFFC8E1">
+            <Title>Filesharing</Title>
+            <Text>Filesharing
+
+Local vs cloud
+
+Common ports and protocols
+
+
+Port
+TCP/UDP
+Protocol
+SMB
+TCP
+445 (current), 139 (NetBIOS)
+Bittorrent
+TCP
+6881–6889
+
+TCP
+
+
+
+Cloud
+
+Microsoft OneDrive
+Microsoft OneDrive (formerly Skydrive) is Microsoft’s own cloud storage solution and is available for personal use with a Microsoft account and business users with a Microsoft 365 account. Users can store and share files between their devices and other people.
+The contents of a user’s OneDrive can be viewed online at: https://onedrive.office.com/
+
+# Tip:
+Each Microsoft 365 licencee that has a copy of Microsoft Office gets 1TB (1024 GB) of cloud storage via OneDrive. Files can be shared easily from the Microsoft Office programs using the autosave switch at the top-left corner.
+
+Syncing
+
+Microsoft OneDrive can be configured to sync the Desktop, Documents and Pictures folders automatically.
+My workaround for automatically syncing other folders is to create a junction (or soft link) within any one of the three aforementioned folders using the mklink command. For example I ran this to sync my Downloads folder:
+
+Open Command Prompt or Windows Terminal.
+Type “md My Downloads” to make a folder. As the name of the folder has a space, we are using quote marks at the beginning and end of the command.
+Type “mklink /J C:\Users\hal\Downloads C:\Users\hal\Documents\My Downloads” to make the junction. The first parameter is the source folder where the files are, the second parameter is the folder within Documents.
+
+# Tip:
+Junction links have other uses too. They can be used to redirect folders used by programs to store data without re-installing the program or making a change in the Registry Editor.
+
+
+Deleted items
+
+Deleted items are put in a recycling bin which can be accessed on the OneDrive site:
+
+There is a 30-day grace period before deletion.
+
+
+Dropbox
+
+Centralised filesharing
+
+Most filesharing is centralised, particularly in business environments.
+
+Server Message Block (SMB)
+
+Server Message Block (SMB) is a proprietary protocol developed by Microsoft for sharing files (and also printers) on a local network using an Active Directory user account. By default it uses port 445.
+
+# Old Technology:
+Back in 1996, SMB was temporarily renamed to the Common Internet File System (CIFS) as a market reaction to Sun Microsystems’ competing WebNFS. Many websites and textbooks still use both names, though CIFS has been obsolete for several years.
+SMB also formerly used port 139 when communicating over NetBIOS prior to the release of Windows Server 2003.
+
+Implementations 
+SMB was developed for and there is officially supported on Microsoft Windows. In my experience, Microsoft Windows has the best compatibility because it’s easy to troubleshoot NTFS permissions and map network drives for convenience.
+
+Apple macOS has natively supported SMB since Mac OS X 10.9 Mavericks as a successor to their own Apple Filing Protocol (AFP).
+
+# Old Technology:
+The Apple Filing Protocol (AFP) is a legacy protocol and has been remove from macOS 11 Big Sur (and subsequent releases). However, some curricula and certifications such as CompTIA A+ expect candidates to know its function and its default port 548.
+Previously, AFP was called the AppleTalk Filing Protocol because it was part of the AppleTalk suite, which is also obsolete.
+
+The Samba project was developed by Anthony “Tridge” Trigell and is a free-software implementation of the protocol allowing SMB compatibility for GNU/Linux and other operating systems. Samba requires installation and configuration in order to work.
+
+Network drives
+
+Network drives are the easiest and most convenient way to access folders that have been shared using SMB on Microsoft Windows. Mapping a drive can be achieved using three different methods:
+
+Manually mapping each drive via File Explorer
+Automatically mapping the drive(s) using Group Policy
+Automatically mapping the drive(s) using commands or a script
+
+The mapping Depending on the number of drives and users who require them. In my experience, I prefer using Group Policy as it can be configured remotely with no end-user intervention required.
+
+# Tip:
+Microsoft Windows and macOS have a different naming scheme for the URLs of each shared SMB resource. 
+Microsoft Windows uses two backslashes (\\) at the start of the URL, followed by a single backslash (\) to separate each folder. 
+macOS uses “smb://” (in a similar fashion to HTTP on a web browser) and at the start of the URL, followed by a single forward slash (/) to separate each folder.
+
+Decentralised filesharing
+
+An alternative to relying on an individual or network of file servers to share files is to use a decentralised peer-to-peer (P2P) protocol such as Bittorrent.
+These technologies have a reputation for being used to facilitate copyright infringement (i.e. internet piracy) as it’s more difficult to remove all the computers providing a particular file.
+
+# Old Technology:
+Before Bittorrent there was a similar peer-to-peer protocol. Called gnutella. It was used for the notorious Limewire, Napster (before it became a legitimate music company) and Bearshare programs.
+
+Bittorrent
+
+Bittorrent is the dominant open peer-to-peer protocol used for file sharing. It works by sharing files through a Bittorrent client using either a .torrent file or more recently a magnet URL link that can be just clicked from a web browser.
+
+Seeders - users who have a complete copy of the file and are willingly to provide their copy to other users who request it
+Leechers - users who have an incomplete copy of the file
+Trackers -
+
+Bittorrent is associated with internet piracy, with pirate websites such as The Pirate Bay, Isohunt and Mininova relying on the technology due to…
+
+There are legitimate uses for Bittorrent and it has been adopted by many larger companies to reduce the load on their servers. Most GNU/Linux distros can be downloaded via Bittorrent and Blizzard use it for their Battle.net client.
+
+#Warning:
+Be sure to use a trustworthy Bittorrent client because some have developed a reputation for adware (and heaven knows what else). I recommend both qbittorrent and Transmission because they are open-source and community-developed.
+
+#Tip:
+Due to Bittorrent’s association with internet piracy (and possible bandwidth usage concerns) it’s common for networks to monitor or outright block the Bittorrent protocol either by firewall or via the internet service provider (ISP). Keep this in mind if you intend to use it at work or in school.
+
+HomeGroup
+
+HomeGroup is Microsoft’s
+
+References:
+https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/</Text>
+        </Document>
         <Document ID="5467B088-332E-4160-A6B1-3935BFC39F61">
             <Title>Foreword</Title>
             <Text>Foreword
@@ -38,6 +162,77 @@ I really like the icon system used in the popular For Dummies series by Wiley ,s
 #Lightbulb – tips
 #Floppy disk – technologies and processes that are effectively obsolete and not commonly used
 #Warning triangle – dangerous to yourself or the technology being discussed</Text>
+        </Document>
+        <Document ID="AD2FF66B-6A77-4FC5-BEE4-60E762CA05F4">
+            <Title>Appendix: Table of Ports and Protocols</Title>
+            <Text>Appendix: Table of Ports and Protocols
+
+A complete alphebetised table for all the ports and protocols mentioned in this book. I’ve marked each protocol that is insecure with a padlock icon.
+
+Current
+
+
+Protocol
+TCP/UDP
+Port(s)
+Bittorrent
+TCP
+6881–6889
+Domain Naming System (DNS)
+UDP
+
+Dynamic Host Control Protocol (DHCP)
+UDP
+
+Exchange ActiveSync
+TCP
+80, 443
+#File Transfer Protocol (FTP)
+TCP
+
+
+
+
+#HyperText Transfer Protocol (HTTP)
+TCP
+80
+HyperText Transfer Protocol Secure (HTTPS)
+TCP
+81
+Internet Control Message Protocol (ICMP)
+None (due to being a network-layer protocol)
+None
+Internet Mail Access Protocol (IMAP)
+TCP
+
+Lightweight Directory Access Protocol (LDAP)
+TCP
+389
+
+
+
+Server Message Block (SMB)
+TCP
+445 (current), 139 (NetBIOS)
+SSH File Transfer Protocol (SFTP)
+TCP
+
+Simple Mail Transfer Protocol (SMTP)
+
+
+Simple Network Management Protocol (SNMP)
+
+
+Secure Shell (SSH)
+TCP
+
+
+
+Obsolete
+Apple Filing Protocol
+Post Office Protocol (POP)
+Telnet
+</Text>
         </Document>
         <Document ID="DE9FB9BE-F139-4A31-8F6D-B4A45CD6C4C1">
             <Title>Bibliography</Title>

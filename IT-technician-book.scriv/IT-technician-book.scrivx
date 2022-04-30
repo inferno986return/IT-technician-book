@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="2.0" Identifier="D98C2438-A9E4-4625-9944-CE415DF4D5A3" Creator="SCRWIN-3.1.1.0" Device="SSLAP2777" Modified="2022-04-29 16:27:33 +0100" ModID="329C20C4-3D8A-4279-84CF-1EF72D128F27">
+<ScrivenerProject Template="No" Version="2.0" Identifier="D98C2438-A9E4-4625-9944-CE415DF4D5A3" Creator="SCRWIN-3.1.1.0" Device="SSLAP2777" Modified="2022-04-30 22:45:34 +0100" ModID="48CD4E8C-DDDE-44EA-AED8-A508F29635AE">
     <Binder>
         <BinderItem UUID="FAC8CC67-A332-431A-926E-9B3CBF4A13F7" Type="DraftFolder" Created="2022-04-29 15:17:23 +0100" Modified="2022-04-29 15:17:23 +0100">
             <Title>Draft</Title>
@@ -13,7 +13,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>345,0</TextSelection>
+                        <TextSelection>2677,1</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="DE9FB9BE-F139-4A31-8F6D-B4A45CD6C4C1" Type="Text" Created="2022-04-29 15:22:31 +0100" Modified="2022-04-29 15:24:49 +0100">
@@ -25,12 +25,22 @@
                         <TextSelection>16,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="130C3B39-1853-4ADB-A2EE-F9502BFFC8E1" Type="Text" Created="2022-04-29 16:23:20 +0100" Modified="2022-04-29 16:23:20 +0100">
+                <BinderItem UUID="130C3B39-1853-4ADB-A2EE-F9502BFFC8E1" Type="Text" Created="2022-04-29 16:23:20 +0100" Modified="2022-04-30 22:22:16 +0100">
+                    <Title>Filesharing</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>57,91</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="AD2FF66B-6A77-4FC5-BEE4-60E762CA05F4" Type="Text" Created="2022-04-30 22:23:09 +0100" Modified="2022-04-30 22:45:30 +0100">
+                    <Title>Appendix: Table of Ports and Protocols</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>490,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -104,11 +114,11 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-04-29 15:17:23 +0100" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Time" ResetTime="01:00" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="621" Characters="3955" Date="2022-04-29 16:27:33 +0100"/>
+        <PreviousSession Words="1178" Characters="7598" Date="2022-04-30 22:45:34 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2022-04-29 00:00:00 +0100">
-        <DraftWordCount>621</DraftWordCount>
-        <DraftCharCount>3955</DraftCharCount>
+    <RecentWritingHistory Date="2022-04-30 00:00:00 +0100">
+        <DraftWordCount>1178</DraftWordCount>
+        <DraftCharCount>7598</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
