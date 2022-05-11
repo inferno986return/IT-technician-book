@@ -6,6 +6,11 @@ The goal is to create a book that makes entering the world of IT easier. It's a 
 
 ## Preface
 
+## What is IT support?
+
+* Zero, 1st, 2nd, 3rd line
+* 
+
 ## Hardware chapter
 
 ### Monitor chapter

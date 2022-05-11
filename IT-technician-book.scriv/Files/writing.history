@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WritingHistory>
     <Day dwc="621" dcc="3955" dtwc="621" owc="0" occ="0" dtcc="3955">2022-04-29</Day>
-    <Day dwc="1" dcc="13" owc="0" occ="0">2022-04-30</Day>
+    <Day dwc="1178" dcc="7598" dtwc="1799" owc="0" occ="0" dtcc="11553">2022-04-30</Day>
+    <Day dwc="37" dcc="217" dtwc="1836" owc="0" occ="0" dtcc="11770">2022-05-04</Day>
+    <Day dwc="237" dcc="1619" dtwc="2077" owc="0" occ="0" dtcc="13432">2022-05-05</Day>
+    <Day dwc="0" dcc="-1" owc="0" occ="0">2022-05-10</Day>
+    <Day dwc="352" dcc="2236" owc="0" occ="0">2022-05-11</Day>
 </WritingHistory>

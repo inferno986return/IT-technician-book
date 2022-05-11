@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="2.0" Identifier="D98C2438-A9E4-4625-9944-CE415DF4D5A3" Creator="SCRWIN-3.1.1.0" Device="SSLAP2777" Modified="2022-04-30 22:45:34 +0100" ModID="48CD4E8C-DDDE-44EA-AED8-A508F29635AE">
+<ScrivenerProject Template="No" Version="2.0" Identifier="D98C2438-A9E4-4625-9944-CE415DF4D5A3" Creator="SCRWIN-3.1.1.0" Device="SSLAP2777" Modified="2022-05-11 12:16:38 +0100" ModID="4FD24B05-DC43-4937-9208-75AB1242ED07">
     <Binder>
         <BinderItem UUID="FAC8CC67-A332-431A-926E-9B3CBF4A13F7" Type="DraftFolder" Created="2022-04-29 15:17:23 +0100" Modified="2022-04-29 15:17:23 +0100">
             <Title>Draft</Title>
@@ -7,32 +7,107 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem UUID="5467B088-332E-4160-A6B1-3935BFC39F61" Type="Text" Created="2022-04-29 15:17:23 +0100" Modified="2022-04-29 16:27:32 +0100">
+                <BinderItem UUID="CDA2C9C7-E107-4A69-B8A1-23776010683F" Type="Text" Created="2022-05-11 11:14:55 +0100" Modified="2022-05-11 11:15:21 +0100">
+                    <Title>Epigraph</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>244,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="32D07922-7BC5-43CF-AEF7-960873AA5096" Type="Text" Created="2022-05-11 11:18:54 +0100" Modified="2022-05-11 11:20:22 +0100">
+                    <Title>Indicia</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>141,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="5467B088-332E-4160-A6B1-3935BFC39F61" Type="Text" Created="2022-04-29 15:17:23 +0100" Modified="2022-05-11 11:16:46 +0100">
                     <Title>Foreword</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>2677,1</TextSelection>
+                        <TextSelection>3032,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="DE9FB9BE-F139-4A31-8F6D-B4A45CD6C4C1" Type="Text" Created="2022-04-29 15:22:31 +0100" Modified="2022-04-29 15:24:49 +0100">
+                <BinderItem UUID="DE9FB9BE-F139-4A31-8F6D-B4A45CD6C4C1" Type="Text" Created="2022-04-29 15:22:31 +0100" Modified="2022-05-11 11:18:25 +0100">
                     <Title>Bibliography</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>16,0</TextSelection>
+                        <TextSelection>498,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="130C3B39-1853-4ADB-A2EE-F9502BFFC8E1" Type="Text" Created="2022-04-29 16:23:20 +0100" Modified="2022-04-30 22:22:16 +0100">
-                    <Title>Filesharing</Title>
+                <BinderItem UUID="D0CFE8F0-A261-4B5A-8EEC-31BDA8FB7433" Type="Text" Created="2022-05-11 11:59:34 +0100" Modified="2022-05-11 11:59:41 +0100">
+                    <Title>Hardware</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>57,91</TextSelection>
+                        <TextSelection>0,0</TextSelection>
                     </TextSettings>
+                    <Children>
+                        <BinderItem UUID="AD702158-A5D2-4946-AE5A-610AD966A93B" Type="Text" Created="2022-05-11 12:15:07 +0100" Modified="2022-05-11 12:15:07 +0100">
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="C00B4C13-E773-4BFA-B93E-C7E248E11CC1" Type="Text" Created="2022-05-04 16:43:42 +0100" Modified="2022-05-11 11:52:53 +0100">
+                            <Title>Keyboard</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>259,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="A63BA17C-25D4-44AC-8D55-483089819137" Type="Text" Created="2022-05-11 11:58:52 +0100" Modified="2022-05-11 12:16:32 +0100">
+                    <Title>Networking</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>11,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="69205CFE-191B-4DB0-B25C-673204C7FD98" Type="Text" Created="2022-05-05 10:28:04 +0100" Modified="2022-05-11 11:59:19 +0100">
+                            <Title>Introduction to Networking</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="06E6CAF1-7320-49A3-819B-88DE3A4A64F8" Type="Text" Created="2022-05-05 09:41:59 +0100" Modified="2022-05-11 11:59:55 +0100">
+                            <Title>E-mail</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2037,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="130C3B39-1853-4ADB-A2EE-F9502BFFC8E1" Type="Text" Created="2022-04-29 16:23:20 +0100" Modified="2022-05-11 12:13:26 +0100">
+                            <Title>Filesharing</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>4825,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
                 </BinderItem>
                 <BinderItem UUID="AD2FF66B-6A77-4FC5-BEE4-60E762CA05F4" Type="Text" Created="2022-04-30 22:23:09 +0100" Modified="2022-04-30 22:45:30 +0100">
                     <Title>Appendix: Table of Ports and Protocols</Title>
@@ -41,6 +116,15 @@
                     </MetaData>
                     <TextSettings>
                         <TextSelection>490,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="DE15FA56-D053-4106-959B-A21055125C2D" Type="Text" Created="2022-05-11 11:50:46 +0100" Modified="2022-05-11 11:51:53 +0100">
+                    <Title>Appendix: List of Illustrations</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>208,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -114,11 +198,11 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-04-29 15:17:23 +0100" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Time" ResetTime="01:00" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="1178" Characters="7598" Date="2022-04-30 22:45:34 +0100"/>
+        <PreviousSession Words="364" Characters="2373" Date="2022-05-11 12:16:38 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2022-04-30 00:00:00 +0100">
-        <DraftWordCount>1178</DraftWordCount>
-        <DraftCharCount>7598</DraftCharCount>
+    <RecentWritingHistory Date="2022-05-11 00:00:00 +0100">
+        <DraftWordCount>352</DraftWordCount>
+        <DraftCharCount>2236</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
