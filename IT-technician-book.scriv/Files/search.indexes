@@ -169,7 +169,7 @@ An alternative to relying on an individual or network of file servers to share f
 These technologies have a reputation for being used to facilitate copyright infringement (i.e. internet piracy) as it’s more difficult to remove all the computers providing a particular file.
 
 # Old Technology:
-Before Bittorrent there was a similar peer-to-peer protocol. Called gnutella. It was used for the notorious Limewire, Napster (before it became a legitimate music company) and Bearshare programs.
+Before Bittorrent, there was a similar peer-to-peer protocol called gnutella. It was used for programs that had a notorious reputation for internet piracy such as Limewire, Napster (before it became a legitimate music company) and Bearshare.
 
 Bittorrent
 
@@ -187,14 +187,19 @@ There are legitimate uses for Bittorrent and it has been adopted by many larger 
 Be sure to use a trustworthy Bittorrent client because some have developed a reputation for adware (and heaven knows what else). I recommend both qbittorrent and Transmission because they are open-source and community-developed.
 
 #Tip:
-Due to Bittorrent’s association with internet piracy (and possible bandwidth usage concerns) it’s common for networks to monitor or outright block the Bittorrent protocol either by firewall or via the internet service provider (ISP). Keep this in mind if you intend to use it at work or in school.
+Due to Bittorrent’s association with internet piracy (and possible bandwidth usage concerns) it’s common for networks to monitor or outright block the Bittorrent protocol. This block would be implemented either by a firewall or via the internet service provider (ISP). Keep this in mind if you intend to use it at work or in school.
 
 HomeGroup
 
 HomeGroup is Microsoft’s
 
+Shadow Copy - Previous Versions
+
 References:
 https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/</Text>
+        </Document>
+        <Document ID="1FEDE2B8-BBC0-4709-B286-9BE3E67DE80E">
+            <Title>Security</Title>
         </Document>
         <Document ID="32D07922-7BC5-43CF-AEF7-960873AA5096">
             <Title>Indicia</Title>
@@ -238,6 +243,7 @@ I really like the icon system used in the popular For Dummies series by Wiley. T
 #Floppy disk – technologies and processes that are effectively obsolete and not commonly used
 #Warning triangle – dangerous to yourself or the technology being discussed</Text>
         </Document>
+        <Document ID="6203D4B0-4183-4D2C-ADC5-8C206CDCD1C1"/>
         <Document ID="69205CFE-191B-4DB0-B25C-673204C7FD98">
             <Title>Introduction to Networking</Title>
         </Document>
@@ -317,7 +323,40 @@ Post Office Protocol (POP)
 Telnet
 </Text>
         </Document>
-        <Document ID="AD702158-A5D2-4946-AE5A-610AD966A93B"/>
+        <Document ID="AD702158-A5D2-4946-AE5A-610AD966A93B">
+            <Title>Monitor</Title>
+            <Text>Monitor
+
+A monitor is an output device…
+
+Refresh rate
+Screen size
+Screen type
+VESA mounts
+Ports - VGA,  DVI, HDMI, DisplayPort
+Multi-monitoring
+Adobe RGB
+
+HDMI (High-Definition Multimedia Interface) is a popular digital cable that outputs audio and video from a device to a monitor or television. HDMI is usually associated with modern televisions, though many computer monitors support the standard.
+
+There are two main HDMI specifications, 
+
+The maximum length of a HDMI cable without a repeater is 15 metres (50 feet), though common lengths that are sold in the UK are 0.5 metre (1 1/2 feet), 1 metre (3 feet), 2 metres (6 feet), 5 metres (15 feet) and 10 metres (30 feet).
+
+A HDMI cable is easy to identify as it has two notches on either side at the bottom.
+
+
+
+
+
+#
+#
+#
+
+References:
+https://www.hdmi.org/spec/index
+</Text>
+        </Document>
         <Document ID="C00B4C13-E773-4BFA-B93E-C7E248E11CC1">
             <Title>Keyboard</Title>
             <Text>Keyboard
@@ -337,6 +376,43 @@ Keys
 
 #</Text>
         </Document>
+        <Document ID="C5AF2E6C-59EF-4DF6-A029-0E12E621D919">
+            <Title>GNU/Linux</Title>
+            <Text>GNU/Linux
+
+Tip:
+GNU/Linux or just Linux? This is a controversial question in the community. Much like Richard Stallman, I prefer the term GNU/Linux when describing an operating system that uses GNU’s libraries, with just Linux referring to the kernel on its own.
+https://www.gnu.org/gnu/why-gnu-linux.html
+
+Ubuntu
+
+Red Hat
+
+Red Hat has several GNU/Linux distributions…
+
+Red Hat Enterprise Linux (RHEL)
+
+RHEL is the main GNU/Linux distribution provided by Red Hat. It is not freely available and requires a paid subscription to be licenced for production use (an exception for developers who can use RHEL for free providing they are developing software for it).
+
+RHEL prioritises stability over the latest technologies.
+
+Fedora
+
+Fedora is a freely available GNU/Linux distribution from Red Hat that is used for the development of Red Hat Enterprise Linux (RHEL). This means it has a fast development cycle and incorporates a lot of new technologies, which gives Fedora its reputation as a testbed.
+
+RHEL is developed from a version of Fedora that is considered stable and ready to be used
+
+CentOS
+
+CentOS is a recent acquisition by Red Hat. It’s development model and purpose has changed significantly since the announcement of CentOS Stream in 2019.
+
+The CentOS project started in 2004 as a repackaged derivative of Red Hat Enterprise Linux (RHEL) with the goal of providing complete freely available alternative with 100% binary and bug-for-bug compatibility.
+
+Since 2019, an unofficial successor called Rocky Linux has taken this mantle and is poised as an alternative to CentOS.
+
+References
+</Text>
+        </Document>
         <Document ID="CDA2C9C7-E107-4A69-B8A1-23776010683F">
             <Title>Epigraph</Title>
             <Text>“It's easier to complicate than simplify.
@@ -350,13 +426,19 @@ Brutal simplicity of thought is therefore a painful necessity.”
         <Document ID="D0CFE8F0-A261-4B5A-8EEC-31BDA8FB7433">
             <Title>Hardware</Title>
         </Document>
+        <Document ID="D62B5D49-2FBB-4AB5-A584-58EA41EA80FD">
+            <Title>Operating Systems</Title>
+        </Document>
         <Document ID="DE15FA56-D053-4106-959B-A21055125C2D">
             <Title>Appendix: List of Illustrations</Title>
             <Text>Appendix: List of Illustrations
 
 https://commons.wikimedia.org/wiki/File:ISO_keyboard_(105)_QWERTY_UK.svg Wikicommons, 
-Simo Kaupinmäki (authors of the source image: Mysid, Ymulleneers, Azaghal of Belegost)
-
+https://commons.wikimedia.org/wiki/File:HDMI_Diagram.svg
+https://commons.wikimedia.org/wiki/File:High_Definition_Multimedia_Interface_Logo.svg
+https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg
+https://commons.wikimedia.org/wiki/File:DisplayPort_Connector.svg
+Simo Kaupinmäki (authors of the source image: Mysid, Ymulleneers, Azaghal of Belegost)
 </Text>
         </Document>
         <Document ID="DE9FB9BE-F139-4A31-8F6D-B4A45CD6C4C1">
@@ -370,6 +452,10 @@ Comptia Network+ V6 Study Guide - Indie Copy (2015), Matthew Bennett, lulu.com, 
 Comptia A+ Complete Study Guide: Exams 220-901 and 220-902 (2016, 3rd Edition), Quentin Docter, Emmett Dulaney, Toby Skandier, Wiley India Pvt., ISBN-13: 978-8126562701
 Exam Ref 70-698 Installing and Configuring Windows 10 (2018, 2nd Edition), Andrew Bettany, Andrew Warren, Microsoft Press, ISBN-13: 978-1509307845
 Exam Ref 70-742 Identity with Windows Server 2016, First Edition (2017), Microsoft Press, Andrew Warren, ISBN-13: 978-0735698819</Text>
+        </Document>
+        <Document ID="E2AB05F2-BEB4-4F36-9F70-0B9923CD0978">
+            <Title>Malware</Title>
+            <Text>Malware</Text>
         </Document>
     </Documents>
 </SearchIndexes>
