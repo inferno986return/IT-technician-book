@@ -257,6 +257,8 @@ Old monitor adapters - VGA and DVI, also aspect ratios of 4:3, 16:9, 16:10, CRT
 
 Virtualisation and setting up Windows Server, then Active Directory 101
 
+What is WSUS?
+
 Further reading - Introduction to Windows 10, Microsoft Server 2016, current CompTIA A+ book...
 
 Udemy videos could be useful
@@ -332,7 +334,7 @@ Office 365 mailbox warning e-mails -> Check on https://outlook.office.com
 
 Outlook troubleshooting and profiles
 
-PXE booting and SCCM
+PXE booting and SCCM - zero touch, answer files, boot.wim, DISM, WindowsPE
 
 Networking: TCP/IP, DNS, basic commands, firewalls (ping can be blocked), RDP/VNC
 
